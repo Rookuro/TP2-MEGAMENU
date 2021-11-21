@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Roboto Mono Thin";
+    src: url("Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+
+header .menu li {
+    font-family: "Roboto Mono Thin";
+    font-size: semi-bold;
+    list-style: none;
+}
+
+header ul {
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.sousmenu {
+    position: absolute;
+    background-color: rgb(61, 51, 207);
+    margin-top: 25px;
+}
+header li {
+    display: block;
+}
+
+header li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-right: 1px grey dashed;
+    padding: 15px 12px 25px 17px;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    background-color: #23364B;
+    height: 60px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;    
+}
+
+header a:hover {
+    background-color: #F36428;
+}
+
+#first a{
+    background-color: #F36428;
+}
+
+.sousmenu li a{
+    display: none;
+}
+
+ul li:hover ul.sousmenu li a{
+    display: block;
+    min-width: 20px;
+}
+
+.sousmenu-droit {
+    background-color: rgb(61, 51, 207);
+}
+
+.sousmenu-droit {
+    display: none;
+}
+
+.sousmenu li:hover ul.sousmenu-droit{
+    display: block;
+    min-width: 100px;
+    /* border-left: 1px solid #365670; */
+}
+
+.sousmenu-gauche{
+    display: none;
+}
+
+/* .menu-droit {
+    
+    min-width: 230px;
+    display: none;
+    border-left: 1px solid #365670; 
+} */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
